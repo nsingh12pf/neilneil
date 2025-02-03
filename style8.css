@@ -1,0 +1,163 @@
+.Bastard{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size:3rem;
+
+}
+
+
+.Bastard1{
+    height: 220px;
+    width: 220px;
+    padding-bottom: 0%;
+    border:0cap;
+
+
+}
+
+
+
+
+.Bastard2{
+    font-family: monospace;
+    
+
+
+}
+
+
+.Bastard3{
+    font-family: monospace;
+
+
+
+
+
+}
+
+
+.Bastard4{
+    font-family: monospace;
+
+
+
+
+
+}
+
+
+.Bastard5{
+    font-family: monospace;
+
+
+
+
+
+}
+
+
+.Bastard6{
+    font-family: monospace;
+
+
+
+
+
+}
+
+
+.Bastard7{
+    font-family: monospace;
+
+
+
+
+
+}
+
+
+body{
+background-color:forestgreen
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    }
+    
+    
+    .main-content {
+    padding: 20px;
+    }
+    
+    h1 {
+    color: #000000;
+    }
+    
+    
+    .open-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; 
+    }
+    
+    .open-btn:hover {
+    background-color: #575757;
+    }
+    
+    
+    .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; 
+    width: 250px;
+    height: 100vh; 
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    transition: right 0.3s ease; 
+    z-index: 999; 
+    }
+    
+    .sidebar.open {
+    right: 0; 
+    }
+    
+    .sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .sidebar ul {
+    list-style: none;
+    }
+    
+    .sidebar ul li {
+    margin: 10px 0;
+    }
+    
+    .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: background-color 0.3s ease;
+    }
+    
+    .sidebar ul li a:hover {
+    background-color: #575757;
+    }

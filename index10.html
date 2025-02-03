@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Popular Songs of Tyler, The Creator</title>
+    <link rel="stylesheet" href="style10.css"> 
+</head>
+<body>
+    <h1>Tyler, The Creator's Top 5 Most Popular Songs</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Song Name</th>
+                <th>Album</th>
+                <th>Stream Count</th>
+                <th>Release Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>“See You Again”</td>
+                <td>Flower Boy</td>
+                <td class="stream-count">1.5 Billion</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>“EARFQUAKE”</td>
+                <td>IGOR</td>
+                <td class="stream-count">1.2 Billion</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>“Who Dat Boy”</td>
+                <td>Flower Boy</td>
+                <td class="stream-count">1 Billion</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>“Lumberjack”</td>
+                <td>Call Me If You Get Lost</td>
+                <td class="stream-count">850 Million</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>“Yonkers”</td>
+                <td>Goblin</td>
+                <td class="stream-count">700 Million</td>
+                <td>2011</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="open-btn" onclick="toggleSidebar()">Open Sidebar</button>
+    <div class="sidebar" id="sidebar">
+        <h2>Tyler, The Sidebar</h2>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="index2.html">Bastard</a></li>
+            <li><a href="index3.html">Goblin</a></li>
+            <li><a href="index11.html">Wolf</a></li>
+            <li><a href="index4.html">Cherry Bomb</a></li>
+            <li><a href="index5.html">Flower Boy</a></li>
+            <li><a href="index6.html">Igor</a></li>
+            <li><a href="index7.html">CMIYGL</a></li>
+            <li><a href="index8.html">Chromakopia</a></li>
+            <li><a href="index9.html">Feedback</a></li>
+            <li><a href="index10.html">Most Popular Music</a></li>
+            <li><a href="index12.html">Credits</a></li>
+        </ul>
+    </div>
+    <script>
+        function toggleSidebar() {
+             document.getElementById("sidebar").classList.toggle("open");
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+
+}
+
+
+.container{
+  margin: 100px 0 0 200px;
+  width: 72%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  z-index: 100;
+  position: relative;
+}
+.container img{
+  width: 9%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid rgb(10, 3, 75) ;
+  transition: all ease-out 0.3s;
+  position: relative;
+  display: flex;
+  bottom: 25%;
+
+}
+.container img:hover{
+  width: 25%;
+}
+  
+.title {
+  font-family: monospace;
+  font-size:5rem;
+  text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.subtitle {
+  font-family: monospace;
+  font-size:2rem;
+  padding-bottom: 100px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+body{
+  background-color:lightsteelblue
+
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+
+.main-content {
+padding: 20px;
+}
+
+h1 {
+color: #000000;
+}
+
+
+.open-btn {
+position: fixed;
+top: 20px;
+right: 20px;
+padding: 10px 20px;
+background-color: #333;
+color: white;
+border: none;
+cursor: pointer;
+z-index: 1000; 
+}
+
+.open-btn:hover {
+background-color: #575757;
+}
+
+
+.sidebar {
+position: fixed;
+top: 0;
+right: -250px; 
+width: 250px;
+height: 100vh; 
+background-color: #000000;
+color: white;
+padding: 20px;
+transition: right 0.3s ease; 
+z-index: 999; 
+}
+
+.sidebar.open {
+right: 0; 
+}
+
+.sidebar h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.sidebar ul {
+list-style: none;
+}
+
+.sidebar ul li {
+margin: 10px 0;
+}
+
+.sidebar ul li a {
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+display: block;
+transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+background-color: #575757;
+}
